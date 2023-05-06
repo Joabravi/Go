@@ -1,0 +1,17 @@
+go version
+#Crear una carpeta donde van los archivos del programa.
+mkdir primer-proyecto-go
+go mod init github.com/Joabravi/primer-proyecto-go
+go.mod //Es el archivo creado
+cat go.mod
+
+vim main.go
+////////////////////////////////
+package main
+
+import "fmt"
+
+func main() {
+    fmt.println("Hola Mundo ")
+    }
+/////////////////////////////////
